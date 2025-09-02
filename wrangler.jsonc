@@ -16,5 +16,11 @@
 	"observability": {
 		"enabled": true,
 		"head_sampling_rate": 1
-	}
+	},
+	"routes": [
+		{
+			"pattern": "assets-proxy.kanium.me",
+			"custom_domain": true
+		}
+	]
 }
